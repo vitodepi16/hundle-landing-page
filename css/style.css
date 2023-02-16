@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+:root{
+    /* colors */
+    --primary: #ff52bf;
+    --neutral-pale: hsl(193, 100%, 96%);
+    --neutral-dark: hsl(192, 100%, 9%);
+    --neutral-blue: hsl(208, 11%, 55%);
+    --heading: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+    align-items: center ;
+
+}
+.space-between{
+    justify-content: space-between;
+}
+
+main{
+    padding: 3rem 0;
+}
+/* PADDING */
+.p-1{
+    padding: 1rem;
+}
+.p-y-2{
+    padding: 2rem 0;
+}
+
+.px-1{
+    padding: 0 1rem ;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* header */
+header{
+    background-image: url('../images/bg-hero-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #edfafe;
+    font-family: 'Poppins', sans-serif;
+}
+.logoContainer{
+    width: 15%;
+}
+.img-logo{
+    width: 15%;
+}
+.text-header{
+    width: 45%;
+    padding-right: 2rem;
+}
+.img-header{
+    width: 55%;
+}
+/* BOTTONI */
+.btn{
+    padding: 15px 70px;
+    background-color: white;
+    box-shadow: -2px 8px 42px 11px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 30px;
+}
+
+.btn-primary{
+    background-color: var(--primary);
+    color: #eee;
+}
+/* CARD */
+.text-card{
+    width: 60%;
+    padding: 100px;
+}
+.img-card{
+    width: 40%;
+    padding: 50px;
+}
+.card{
+    padding: .5rem 2rem;
+    box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+
+@media screen and (max-width: 750px){
+
+    header{
+        background-image: url('../images/bg-hero-mobile.svg');
+    }
+}
