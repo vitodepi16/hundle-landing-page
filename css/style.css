@@ -28,7 +28,7 @@
 }
 
 main{
-    padding: 3rem 0;
+    padding: 3rem 0 0 0;
 }
 /* PADDING */
 .p-1{
@@ -115,11 +115,30 @@ header{
     align-items: center ;
     flex-direction: row-reverse;
 }
+/* CARD BOTTONE */
+.ctnbtn{
+    width: 700px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    bottom: -60px;
+    text-align: center;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.1);
+}
+.ctnbtn h2{
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
 /* FOOTER */
 footer{
     background-color: var(--footer);
     color: var(--neutral-blue) ;
-    padding: 3rem 0;
+    padding: 8rem 0 0 5rem;
+
 }
 .logo-footer{
     width: 20%;
@@ -134,6 +153,12 @@ ul{
 .cont-ul{
     width: calc(100% / 3);
 }
+
+.cont-center li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
 .border-circle li{
     padding: 0;
     border: 1px solid var(--neutral-blue);
@@ -145,6 +170,12 @@ ul{
     justify-content: center;
     margin: 0 .5rem;
  
+}
+.border-circle li:hover{
+    border-color: var(--primary);
+}
+.border-circle li:hover i {
+    color: #ff52bf;
 }
 .border-circle i{
     margin: 0;
