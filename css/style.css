@@ -14,7 +14,7 @@
     --heading: 'Poppins', sans-serif;
 }
 .container{
-    max-width: 1300px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 .d-flex{
@@ -87,6 +87,12 @@ header{
     color: #eee;
 }
 /* CARD */
+.text-card h2{
+    font-size: 1.6rem;
+}
+.text-card p{
+    color: var(--neutral-blue);
+}
 .text-card{
     width: 60%;
     padding: 100px;
@@ -97,7 +103,14 @@ header{
 }
 .card{
     padding: .5rem 2rem;
-    box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.1);
+    border-radius: 30px;
+    margin: 2rem 0;
+}
+.reverse-flex{
+    display: flex;
+    align-items: center ;
+    flex-direction: row-reverse;
 }
 
 
